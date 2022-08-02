@@ -1,0 +1,489 @@
+*{box-sizing: border-box}
+body 
+    {
+    color: #000; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+.button 
+    { 
+        background-color: #efc501; 
+        margin-left: .5em; 
+        float: left; 
+        width:45%; 
+        text-align: center; 
+        border-radius: 20px; 
+        padding-right: .5em; 
+    }
+.button a:link
+    {
+        color:#000
+    }
+.button a:visited
+    {
+        color: #8b0001; 
+    }
+.button a:hover
+    {
+        color: #4259c3;
+    }
+.button02 
+    { 
+        background-color: #efc501; 
+        margin-right: .5em; 
+        float: right; 
+        width:45%; 
+        text-align: center; 
+        border-radius: 20px; 
+        padding-right: .5em; 
+    }
+.button02 a:link
+    {
+        color: #000; 
+    }
+.button02 a:visited
+    {
+        color: #8b0001; 
+    }
+.button02 a:hover
+    {
+        color: #4259c3;
+    }
+.button03 
+    { 
+        background-color: #8b0001; 
+        margin-left: 8em; 
+        float: center; 
+        width:45%; 
+        text-align: center; 
+        border-radius: 20px; 
+    }
+.button03 a:link
+    {
+        color: #000; 
+    }
+.button03 a:visited
+    {
+        color: #4259c3;
+    }
+.button03 a:hover
+    {
+        color:#efc501;
+    }
+.mid 
+    {
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+.center     
+    {
+        background-color: #efc501; 
+        margin-left: 8em; 
+        float: center; 
+        width:45%; 
+        text-align: center; 
+        border-radius: 20px; 
+        padding-right: .5em;   
+    }
+    .button04
+    {
+        background-color: #efc501; 
+        margin-left: .5em; 
+        float: left; 
+        width:45%; 
+        text-align: center; 
+        border-radius: 20px; 
+        padding-right: .5em;  
+    }
+    .button05
+    {
+        background-color: #efc501; 
+        margin-right: .5em; 
+        float: right; 
+        width:45%; 
+        text-align: center; 
+        border-radius: 20px; 
+        padding-right: .5em; 
+    }
+    .button06
+    {
+        background-color: #efc501; 
+        margin-left: .5em; 
+        float: left; 
+        width:45%; 
+        text-align: center; 
+        border-radius: 20px; 
+        padding-right: .5em;
+    }
+    .button07
+    {
+        background-color: #efc501; 
+        margin-right: .5em; 
+        float: right; 
+        width:45%; 
+        text-align: center; 
+        border-radius: 20px; 
+        padding-right: .5em; 
+    }
+.center a:link
+    {
+        color:#000
+    }
+.center a:visited
+    {
+        color: #8b0001; 
+    }
+.center a:hover
+    {
+        color: #4259c3;
+    }
+.dick
+    {
+       display: block; 
+       margin-left: auto; 
+       margin-right: auto; 
+       width: 50%; 
+    }
+.facebook
+    {
+        margin-left: .5em; 
+        float: left; 
+        width:45%; 
+        text-align: center; 
+        border-radius: 20px; 
+        padding-right: .5em;
+    }
+footer 
+    {
+        background-color: #4259c3; 
+        color: #000; 
+        padding-left: 1em; 
+        text-align: right; 
+    }
+h1 
+    {
+        text-align: center; 
+        font-size: 3.5em;
+    }
+h2
+    {
+        font-size: 2.5em;
+        color: #4259c3;
+        padding-right: .5em;
+        padding-left: .5em; 
+    }
+h3 
+    {
+        font-size: 2em; 
+        color: #8b0001; 
+        text-align: center; 
+    }
+h4
+    {
+        text-decoration: none; 
+    }
+header 
+    {
+        background-color: #9ec2ff; 
+        color: #000; 
+}
+html 
+    {background-image: url(pictures/background.jpg); 
+    background-size: 100% 100%; 
+    background-attachment: fixed; 
+    }
+.instagram
+    {
+        margin-right: .5em; 
+        float: right; 
+        width:45%; 
+        text-align: center; 
+        border-radius: 20px; 
+        padding-right: .5em;
+    }
+nav 
+    {
+        text-align: center; 
+        background-color: #9ec2ff; 
+        color: #000;  
+        width: 100%; 
+        height: auto; 
+        display: flex;
+    }
+nav ul 
+    {
+        list-style-type: none; 
+        margin: 0; 
+        font-size: 175%; 
+    }
+nav li 
+    {
+        display: inline; 
+        width: 30%; 
+    }
+nav a 
+    {
+        text-decoration: none; 
+    }
+nav a:link 
+    {
+        color: #03018c; 
+    }
+nav a:visited 
+    {
+        color: #d65d42; 
+    }
+nav a:hover 
+    {
+        color: #8b0001; 
+    }
+.outer
+    {
+    box-shadow: 5em #e97452 ;
+    display: inline-block; 
+    font-family: 'Segoe UI', tahoma, geneva, Verdana, sans-serif; 
+    margin: 0 2.4% 3em; 
+    padding-left: 3em; 
+    position: relative;
+    width: 75%; 
+    }
+.outer img {
+    display: block; 
+}
+.outer .year1
+    {
+    bottom: 0; 
+    background-color: #efc501; 
+    color: #000; 
+    overflow: hidden; 
+    padding: .5em .5em .5em 1em;
+    position: absolute; 
+    text-align: left; 
+    width: 100%;  
+    font-weight: bolder;
+    }
+.outer .year2
+    {
+    bottom: 0; 
+        background-color: #03018c; 
+        color: #fff; 
+        overflow: hidden; 
+        padding: .5em .5em .5em 1em; 
+        position: absolute; 
+        text-align: left; 
+        width: 100%; 
+        font-weight: bolder;
+    }
+.outer .year3
+    {
+    bottom: 0; 
+    background-color: #8b0001; 
+    color: #fff; 
+    overflow: hidden; 
+    padding: .5em .5em .5em 1em; 
+    position: absolute; 
+    text-align: left; 
+    width: 100%; 
+    font-weight: bolder;
+    }
+.outer .year4
+    {
+    bottom: 0; 
+    background-color: #efc501; 
+    color: #000; 
+    overflow: hidden; 
+    padding: .5em .5em .5em 1em; 
+    position: absolute; 
+    text-align: left; 
+    width: 100%; 
+    font-weight: bolder;
+    }
+.outer .year5
+    {
+    bottom: 0; 
+    background-color: #03018c; 
+    color: #fff; 
+    overflow: hidden; 
+    padding: .5em .5em .5em 1em;
+    position: absolute; 
+    text-align: left; 
+    width: 95%; 
+    font-weight: bolder;
+    }
+p
+    {
+    font-size: 1.2em;
+    padding-right: 1.5em; 
+    padding-left: 1.5em; 
+    }
+#small
+    {
+    height: 100%; 
+    width: 100%; 
+    margin: auto; 
+    margin-left: 0.009%;
+    }
+.yellow
+    {
+        font-size: 3em; 
+        color: #efc501;
+        text-align: center; 
+    }
+@media (min-width: 600px)
+{
+    .button 
+    {
+        width: 40%; 
+        margin-left: 3em; 
+    }
+    .button02
+    {
+        width: 40%; 
+        margin-right: 3em; 
+    }
+    .button03
+    {
+        width: 30%;
+        margin-left: 20em;
+    }
+    .button04
+    {
+        width: 25%;
+        margin-left: 8em; 
+    }
+    .button05
+    {
+        width: 25%;
+        margin-right: 8em;
+    }
+    .button06
+    {
+        width: 25%;
+        margin-left: 8em;
+    }
+    .button07
+    {
+        width: 25%;
+        margin-right: 8em;
+    }
+    .center
+    {
+        width:35%;
+        margin-left: 17em; 
+    }
+    header 
+    {
+        width: 100%; 
+        height: .02%; 
+    }
+    .mid
+    {
+        height: 50%;
+        width: 50%;
+        margin-left: 10em;
+    }
+    nav 
+    {
+        text-align: center; 
+        height: 2.25em;  
+        font-size: 1.25em; 
+    }
+    .outer 
+    {
+        width: 40%;
+    }
+    .outer img 
+    {
+        width: 124%;
+        height: 124%; 
+    }
+}
+@media (min-width: 1040px) 
+{
+    .dick  
+    {
+        width: 30%; 
+    }
+    span 
+    {display: block; 
+        width: 25em; 
+    }
+    .button 
+    {
+        width: 20%; 
+        margin-left: 20em; 
+    }
+    .button02
+    {
+        width: 20%; 
+        margin-right: 20em; 
+    }
+    .button03
+    {
+        width:20%;
+        margin-left: 35em; 
+    }
+    .button04
+    {
+        width: 12%;
+        margin-left: 30em; 
+    }
+    .button05
+    {
+        width: 12%;
+        margin-right: 30em;
+    }
+    .button06
+    {
+        width: 15%;
+        margin-left: 25em; 
+    }
+    .button07
+    {
+        width: 15%;
+        margin-right: 25em;
+    }
+    .center
+    {
+        width:25%;
+        margin-left: 35em;   
+    }
+    .facebook
+    {
+        width: 30%;
+        margin-left: 20em;
+    }
+    .instagram
+    {
+        width: 30%;
+        margin-right: 10em;
+    }
+    .mid
+    {
+        height: 50%;
+        width: 50%;
+        margin-left: 22sem;
+    }
+    nav 
+    {
+        height: 2em; 
+        font-size: 1.5em; 
+        padding-left: 15em; 
+    }
+    .outer
+    {
+        width: 15%;
+        padding-left: 2.50em;
+    }
+    .outer img 
+    {
+        width: 145%; 
+        height: 145%; 
+    }
+    #small
+    {   background-image: url(Pictures/HERO02.jpg)
+        background-repeat: no-repeat; 
+        height: auto; 
+       margin: auto; 
+    }
+}
